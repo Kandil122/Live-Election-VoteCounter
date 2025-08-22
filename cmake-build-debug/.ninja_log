@@ -1,0 +1,14 @@
+# ninja log v6
+8	1839	7774809649479661	CMakeFiles/vote_counter_lib.dir/src/election_system.cpp.obj	9c21c2bc4bbf89d1
+253	1535	7774790477226536	CMakeFiles/vote_counter.dir/src/fenwick_tree.cpp.obj	33c2e82375c110aa
+1839	2265	7774809667784099	libvote_counter_lib.a	c14d359715e29428
+30	1491	7774790474993350	CMakeFiles/vote_counter_lib.dir/src/fenwick_tree.cpp.obj	2ed40f3dcbdf7787
+24	1591	7774549636867167	CMakeFiles/vote_counter.dir/src/main.cpp.obj	57de2b7ad27ee192
+109	3138	7774790475783704	CMakeFiles/vote_counter_lib.dir/src/vote_manager.cpp.obj	be4cdb43ba023ffc
+1540	2574	7774492465598958	test/test_election.exe	15655b7b538763
+311	3219	7774790477812359	CMakeFiles/vote_counter.dir/src/vote_manager.cpp.obj	37c2bacda8de7184
+7	1538	7774492450262633	test/CMakeFiles/test_election.dir/test_election.cpp.obj	352e62cb3fe1fd56
+17	1835	7774809649569920	CMakeFiles/vote_counter.dir/src/election_system.cpp.obj	61b1c33006023dd4
+4046	5196	7774790515146869	vote_counter.exe	989ce8072c3b963d
+11	392	7774819479305733	build.ninja	2d37297283ab7c83
+16	783	7775495734626610	vote_counter.exe	989ce8072c3b963d

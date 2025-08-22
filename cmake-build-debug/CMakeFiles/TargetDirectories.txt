@@ -1,0 +1,5 @@
+C:/Users/adham/Downloads/cursor_elective_counter/cmake-build-debug/CMakeFiles/vote_counter.dir
+C:/Users/adham/Downloads/cursor_elective_counter/cmake-build-debug/CMakeFiles/vote_counter_lib.dir
+C:/Users/adham/Downloads/cursor_elective_counter/cmake-build-debug/CMakeFiles/election_dashboard.dir
+C:/Users/adham/Downloads/cursor_elective_counter/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/adham/Downloads/cursor_elective_counter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
