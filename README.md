@@ -79,54 +79,6 @@ Make sure you have the following installed:
    vote_counter.exe  # On Windows
    ```
 
-### GUI Dashboard
-
-The project now includes a modern Qt6-based GUI dashboard with real-time charts, interactive tables, and live updates.
-
-#### Prerequisites
-- **Qt6**: Install Qt6 with Core, Widgets, and Charts modules
-- **C++17**: Modern C++ compiler support
-- **CMake**: Version 3.10 or higher
-
-#### Build Commands
-
-**Windows**:
-```batch
-build_gui.bat
-```
-
-**Linux/macOS**:
-```bash
-chmod +x build_gui.sh
-./build_gui.sh
-```
-
-#### GUI Features
-- 🎯 **Real-time Dashboard**: Live vote updates with instant results
-- 📊 **Interactive Charts**: Bar charts for overall and district results
-- 🎮 **User Controls**: Easy election setup and vote input
-- 🔧 **Advanced Features**: Auto-refresh, simulation, and export
-- 📱 **Responsive Design**: Adapts to different screen sizes
-
-See `GUI_README.md` for detailed GUI usage instructions.
-
-## 🎮 Usage
-
-### Interactive Menu
-
-The application provides an interactive menu with the following options:
-
-1. **Setup Election**: Configure districts and candidates
-2. **Start Election**: Begin accepting vote updates
-3. **Stop Election**: Stop accepting vote updates
-4. **Add Vote Update**: Manually add votes from a precinct
-5. **View Current Results**: See overall election results
-6. **View District Results**: Get results for a specific district
-7. **View Candidate Results**: Get results for a specific candidate
-8. **View Election Info**: Display election configuration
-9. **Simulate Random Updates**: Test with random vote data
-10. **View Vote History**: See all vote updates for audit
-11. **Reset Election**: Clear all votes and start over
 
 ### Example Workflow
 
@@ -184,21 +136,6 @@ The system is designed to handle:
 - **Error Handling**: Graceful error handling with informative messages
 - **Data Integrity**: Fenwick Tree ensures accurate vote counting
 
-## 🧪 Testing
-
-The system includes built-in testing capabilities:
-- Random vote simulation for stress testing
-- Input validation testing
-- Performance benchmarking tools
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
 ## 📚 Technical Details
 
 ### Fenwick Tree Implementation
@@ -209,27 +146,6 @@ The core data structure provides:
 - **Memory Efficiency**: Compact representation
 - **Scalability**: Handles large datasets efficiently
 
-### Memory Management
-
-- Uses smart pointers for automatic memory management
-- Efficient data structures minimize memory overhead
-- RAII principles ensure proper resource cleanup
-
-## 🚨 Troubleshooting
-
-### Common Issues
-
-1. **Build Errors**: Ensure you have C++17 support enabled
-2. **Runtime Errors**: Check that districts and candidates are properly configured
-3. **Performance Issues**: Verify the system meets minimum requirements
-
-### Getting Help
-
-If you encounter issues:
-1. Check the error messages for specific details
-2. Verify your input data format
-3. Ensure the election is properly set up before use
-
 ## 🔮 Future Enhancements
 
 Planned features include:
@@ -239,10 +155,4 @@ Planned features include:
 - **Real-time Streaming**: WebSocket support for live updates
 - **Mobile App**: Native mobile applications
 
-## 📞 Support
-
-For support and questions, please open an issue in the repository or contact the development team.
-
 ---
-
-**Built with ❤️ for transparent and efficient election management**
